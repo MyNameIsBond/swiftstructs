@@ -16,6 +16,11 @@ struct Song {
     self.play = false
     return self.play
   }
+  
+  mutating func playStopSong(_ arg: Bool) -> Bool {
+    self.play = arg
+    return self.play
+  }
 }
 
 struct PlayMusic: View {
@@ -25,12 +30,9 @@ struct PlayMusic: View {
     Image(systemName: mySong.play ? "play.fill" : "stop.fill").onTapGesture {
       if mySong.play {
         mySong.stropSong()
-        print("PLAY:", mySong)
       } else {
         mySong.playSong()
-        print("STOP", mySong)
       }
-      
     }
   }
 }
