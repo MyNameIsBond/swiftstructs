@@ -8,7 +8,8 @@ struct ContentView: View {
     //    Distance()
     //    AgeOfCar()
     //    BankAccount()
-    PlayMusic()
+//    PlayMusic()
+    TemperatureStruct()
   }
 }
 
