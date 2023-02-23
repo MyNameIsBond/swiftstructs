@@ -6,7 +6,8 @@ struct ContentView: View {
     //    UserStruct()
     //    Rectangle()
     //    Distance()
-    AgeOfCar()
+    //    AgeOfCar()
+    BankAccount()
   }
 }
 
