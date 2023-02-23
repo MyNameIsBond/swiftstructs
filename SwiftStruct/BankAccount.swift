@@ -3,19 +3,23 @@ import SwiftUI
 
 struct Account {
   let accountNumber: Int
-  let balance: Int
+  var balance: Int
   
   mutating func deposit(_ amount: Int) -> Int {
-    return balance + amount
+    self.balance += amount
+    
+    return self.balance
   }
   
   mutating func withdraw(_ amount: Int) -> Int {
     let newAmount = balance - amount
     
     if newAmount < 0 {
-      return balance
+      return self.balance
     }
-    return newAmount
+    
+    self.balance = newAmount
+    return self.balance
   }
 }
 
@@ -30,6 +34,7 @@ struct BankAccount: View {
     Button("Withdraw"){
       var newWithdraw = myAccount.withdraw(100)
       print("My new withdraw:", newWithdraw)
+      print("main state \(myAccount)")
     }
   }
 }
