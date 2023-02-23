@@ -14,6 +14,8 @@
 		9719E4D229A78EAD009F1764 /* SwiftStructTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9719E4D129A78EAD009F1764 /* SwiftStructTests.swift */; };
 		9719E4DC29A78EAD009F1764 /* SwiftStructUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9719E4DB29A78EAD009F1764 /* SwiftStructUITests.swift */; };
 		9719E4DE29A78EAD009F1764 /* SwiftStructUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9719E4DD29A78EAD009F1764 /* SwiftStructUITestsLaunchTests.swift */; };
+		9719E4EB29A7924D009F1764 /* UserStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9719E4EA29A7924D009F1764 /* UserStruct.swift */; };
+		978E054529A7A94B00BD08B7 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E054429A7A94B00BD08B7 /* Rectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		9719E4D729A78EAD009F1764 /* SwiftStructUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStructUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9719E4DB29A78EAD009F1764 /* SwiftStructUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStructUITests.swift; sourceTree = "<group>"; };
 		9719E4DD29A78EAD009F1764 /* SwiftStructUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStructUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9719E4EA29A7924D009F1764 /* UserStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStruct.swift; sourceTree = "<group>"; };
+		978E054429A7A94B00BD08B7 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				9719E4C329A78EAD009F1764 /* Assets.xcassets */,
 				9719E4C829A78EAD009F1764 /* SwiftStruct.entitlements */,
 				9719E4C529A78EAD009F1764 /* Preview Content */,
+				9719E4EA29A7924D009F1764 /* UserStruct.swift */,
+				978E054429A7A94B00BD08B7 /* Rectangle.swift */,
 			);
 			path = SwiftStruct;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9719E4EB29A7924D009F1764 /* UserStruct.swift in Sources */,
 				9719E4C229A78EAC009F1764 /* ContentView.swift in Sources */,
 				9719E4C029A78EAC009F1764 /* SwiftStructApp.swift in Sources */,
+				978E054529A7A94B00BD08B7 /* Rectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
