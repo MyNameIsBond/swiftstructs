@@ -17,6 +17,7 @@
 		9719E4EB29A7924D009F1764 /* UserStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9719E4EA29A7924D009F1764 /* UserStruct.swift */; };
 		978E054529A7A94B00BD08B7 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E054429A7A94B00BD08B7 /* Rectangle.swift */; };
 		978E054729A7B70700BD08B7 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E054629A7B70700BD08B7 /* Distance.swift */; };
+		978E054929A7C24A00BD08B7 /* AgeOfCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E054829A7C24A00BD08B7 /* AgeOfCar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9719E4EA29A7924D009F1764 /* UserStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStruct.swift; sourceTree = "<group>"; };
 		978E054429A7A94B00BD08B7 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 		978E054629A7B70700BD08B7 /* Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
+		978E054829A7C24A00BD08B7 /* AgeOfCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfCar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				9719E4EA29A7924D009F1764 /* UserStruct.swift */,
 				978E054429A7A94B00BD08B7 /* Rectangle.swift */,
 				978E054629A7B70700BD08B7 /* Distance.swift */,
+				978E054829A7C24A00BD08B7 /* AgeOfCar.swift */,
 			);
 			path = SwiftStruct;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9719E4EB29A7924D009F1764 /* UserStruct.swift in Sources */,
+				978E054929A7C24A00BD08B7 /* AgeOfCar.swift in Sources */,
 				9719E4C229A78EAC009F1764 /* ContentView.swift in Sources */,
 				9719E4C029A78EAC009F1764 /* SwiftStructApp.swift in Sources */,
 				978E054529A7A94B00BD08B7 /* Rectangle.swift in Sources */,

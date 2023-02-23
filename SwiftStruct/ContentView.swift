@@ -5,7 +5,8 @@ struct ContentView: View {
   var body: some View {
     //    UserStruct()
     //    Rectangle()
-    Distance()
+    //    Distance()
+    AgeOfCar()
   }
 }
 
