@@ -12,13 +12,12 @@ struct Account {
   }
   
   mutating func withdraw(_ amount: Int) -> Int {
-    let newAmount = balance - amount
     
-    if newAmount < 0 {
+    guard (self.balance - amount) >= 0  else {
       return self.balance
     }
     
-    self.balance = newAmount
+    self.balance = self.balance - amount
     return self.balance
   }
 }
@@ -28,11 +27,11 @@ struct BankAccount: View {
   var body: some View {
     Text("Bank Account")
     Button("Deposit") {
-      var newDeposit = myAccount.deposit(100)
+      let newDeposit = myAccount.deposit(100)
       print("My new deposit:", newDeposit)
     }
     Button("Withdraw"){
-      var newWithdraw = myAccount.withdraw(100)
+      let newWithdraw = myAccount.withdraw(100)
       print("My new withdraw:", newWithdraw)
       print("main state \(myAccount)")
     }
