@@ -15,6 +15,7 @@ struct Temperature {
 }
 
 struct TemperatureStruct: View {
+  
   @State var temp: Temperature = Temperature(celcius: 10.4, fahrenheit: 40)
   @State var f: Double = 0.0
   @State var c: Double = 0.0
