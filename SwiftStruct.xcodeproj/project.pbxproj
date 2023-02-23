@@ -19,6 +19,7 @@
 		978E054729A7B70700BD08B7 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E054629A7B70700BD08B7 /* Distance.swift */; };
 		978E054929A7C24A00BD08B7 /* AgeOfCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E054829A7C24A00BD08B7 /* AgeOfCar.swift */; };
 		978E054B29A7DD1600BD08B7 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E054A29A7DD1600BD08B7 /* BankAccount.swift */; };
+		978E054D29A7EAF100BD08B7 /* PlayMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E054C29A7EAF100BD08B7 /* PlayMusic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		978E054629A7B70700BD08B7 /* Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
 		978E054829A7C24A00BD08B7 /* AgeOfCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfCar.swift; sourceTree = "<group>"; };
 		978E054A29A7DD1600BD08B7 /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		978E054C29A7EAF100BD08B7 /* PlayMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMusic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				978E054629A7B70700BD08B7 /* Distance.swift */,
 				978E054829A7C24A00BD08B7 /* AgeOfCar.swift */,
 				978E054A29A7DD1600BD08B7 /* BankAccount.swift */,
+				978E054C29A7EAF100BD08B7 /* PlayMusic.swift */,
 			);
 			path = SwiftStruct;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9719E4EB29A7924D009F1764 /* UserStruct.swift in Sources */,
+				978E054D29A7EAF100BD08B7 /* PlayMusic.swift in Sources */,
 				978E054929A7C24A00BD08B7 /* AgeOfCar.swift in Sources */,
 				9719E4C229A78EAC009F1764 /* ContentView.swift in Sources */,
 				9719E4C029A78EAC009F1764 /* SwiftStructApp.swift in Sources */,

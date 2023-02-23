@@ -7,7 +7,8 @@ struct ContentView: View {
     //    Rectangle()
     //    Distance()
     //    AgeOfCar()
-    BankAccount()
+    //    BankAccount()
+    PlayMusic()
   }
 }
 

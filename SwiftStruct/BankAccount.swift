@@ -7,12 +7,10 @@ struct Account {
   
   mutating func deposit(_ amount: Int) -> Int {
     self.balance += amount
-    
     return self.balance
   }
   
   mutating func withdraw(_ amount: Int) -> Int {
-    
     guard (self.balance - amount) >= 0  else {
       return self.balance
     }
